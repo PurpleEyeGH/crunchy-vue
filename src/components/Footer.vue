@@ -3,58 +3,23 @@
     <footer>
       <div class="flex flex-wrap items-center py-4 px-4 border-b">
         <div class="w-full lg:w-1/5 text-center lg:text-left">
-          <a class="text-xl text-indigo-600 font-semibold font-heading" href="#"
-            >Crunchy</a
-          >
+          <a class="text-xl text-indigo-600 font-semibold font-heading" href="#">Crunchy</a>
         </div>
         <div class="w-full lg:w-3/5 mt-4 lg:mt-0 text-center">
-          <a
-            class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600"
-            href="#"
-            >Products
-          </a>
+          <a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600" href="#">Products </a>
           <router-link href="/team" :to="{ name: 'Team' }">
-            <a
-              class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600"
-              >Team
-            </a>
+            <a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600">Team </a>
           </router-link>
-          <a
-            class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600"
-            href="#"
-            >Customers</a
-          ><a
-            class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600"
-            href="#"
-            >Blog</a
-          >
+          <a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600" href="#">Customers</a>
+          <a class="inline-block mx-4 mb-4 lg:mb-0 text-blue-900 hover:text-indigo-600" href="#">Blog</a>
         </div>
-        <div
-          class="flex justify-center space-x-6 lg:justify-end w-full lg:w-1/5 my-2 lg:my-0"
-        >
+        <div class="flex justify-center space-x-6 lg:justify-end w-full lg:w-1/5 my-2 lg:my-0">
           <a href="#">
-            <svg
-              class="text-indigo-600 w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewbox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              ></path></svg
+            <svg class="text-indigo-600 w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg
           ></a>
           <a href="#">
-            <svg
-              class="text-indigo-600 w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewbox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg class="text-indigo-600 w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -63,13 +28,7 @@
               ></path></svg
           ></a>
           <a href="#">
-            <svg
-              class="text-indigo-600 w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewbox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+            <svg class="text-indigo-600 w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -80,18 +39,8 @@
         </div>
       </div>
       <div class="py-4 text-center">
-        <span class="block md:inline-block mb-4 md:mb-0 mx-3"
-          >&copy; 2020 CrunchyTeam with &lt;3</span
-        >
-        <a
-          class="inline-block mx-4 text-blue-900 hover:text-indigo-600"
-          href="#"
-          >Privacy Policy</a
-        ><a
-          class="inline-block mx-4 text-blue-900 hover:text-indigo-600"
-          href="#"
-          >Term of Service</a
-        >
+        <span class="block md:inline-block mb-4 md:mb-0 mx-3">&copy; 2020 CrunchyTeam with &lt;3</span>
+        <a class="inline-block mx-4 text-blue-900 hover:text-indigo-600" href="#">Privacy Policy</a><a class="inline-block mx-4 text-blue-900 hover:text-indigo-600" href="#">Term of Service</a>
       </div>
     </footer>
   </div>

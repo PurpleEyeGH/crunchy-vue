@@ -4,13 +4,7 @@
   </div>
   <div id="page">
     <router-view v-slot="{ Component }">
-      <transition
-        name="fade"
-        mode="out-in"
-        @beforeLeave="beforeLeave"
-        @enter="enter"
-        @afterEnter="afterEnter"
-      >
+      <transition name="fade" mode="out-in" @beforeLeave="beforeLeave" @enter="enter" @afterEnter="afterEnter">
         <component :is="Component" />
       </transition>
     </router-view>
@@ -27,8 +21,8 @@ export default {
   name: "App",
   data() {
     return {
-      prevHeight: 0
-    }
+      prevHeight: 0,
+    };
   },
   components: {
     Header,
